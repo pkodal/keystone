@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+
+.debug-overlay
+{
+    position: absolute; z-index: 1000;
+    border-width: 1px; border-color: black; border-style: solid;
+    background-color: #85cae7;
+}
+.debug-overlay a { color: blue; }
+.debug-overlay a:hover { background-color: #6d9fb4; }
+a.debug-menu-open, a.debug-menu-open:hover { background-color: #aed3e3; }
+
+.debug-info
+{
+        width: 60%;
+        left: 20%;
+
+        padding-left: 10px;
+        padding-right: 10px;       
+}
+.debug-info a { float: right; }
+
+.debug-menu
+{
+    right: 10px;
+    top: 10px;
+}
+
+a.debug-menu-close { float: right;}
+
+.debug-menu span
+{
+    width: 100%;
+    font-weight: bold;
+    border-bottom-color: black; border-bottom-style: solid; border-bottom-width: 1px;
+}
+
+.debug-overlay-title span {font-weight: bold; }
+.debug-overlay-title a {float: right; }
+.debug-overlay-title {border-bottom-color: black; border-bottom-style: solid; border-bottom-width: 1px; padding-bottom: 5px;}
+.debug-console { top: 60px; left: 76%; }
+
+.debug-console-inner .selected
+{
+    font-weight: bold;
+}
+
+
+.detailsBox
+{
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	background-color: #85cae7;
+}
+
+.detailsBox2
+{
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	background-color: #e3ec7c; 
+}
+
+.detailsBox3
+{
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	background-color: #9fec84; 
+}
+
+.debug-header
+{
+	font-weight: bolder;
+	font-size: x-large;
+}
+
+.item
+{
+	font-weight: bold; 
+	padding-right: 20px;
+}
+
+.data
+{
+	font-family: monospace;
+}
+
+	
